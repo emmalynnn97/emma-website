@@ -1,1 +1,21 @@
-
+.icon-tabler-arrow-down-circle{
+    animation:bobarrow .65s infinite;
+    position:relative;
+}
+.link{
+    transition:.25s ease;
+}
+.link:hover{
+    color:#FF65DE !important;
+}
+@keyframes bobarrow{
+    0%{
+        top:0;
+    }
+    50%{
+        top:1.5em;
+    }
+    100%{
+        top:0;
+    }
+}
