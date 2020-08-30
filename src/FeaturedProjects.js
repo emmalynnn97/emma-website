@@ -42,14 +42,22 @@ export class FeaturedProjects extends Component {
             fontSize:'1.75em',
             color:'#FF65DE',
             margin:'0',
+            display:'flex',
+            alignItems:'center'
         }
         return (
             <div className='proj-container' style={containerStyle}>
                 <h2 style={projHeadingStyle}>Featured Projects</h2>
                 <div className='proj-row' style={projContainerStyle}>
-                    <div style={projStyle}></div>
-                    <div style={projStyle}></div>
-                    <div style={projStyle}></div>
+                    <div style={projStyle}>
+                        <img src="" alt="timing chutes website"/>
+                    </div>
+                    <div style={projStyle}>
+                    <img src="" alt="???"/>
+                    </div>
+                    <div style={projStyle}>
+                    <img src="" alt="ACS Refresh"/>
+                    </div>
                 </div>
                 <Link style={allProjLinkStyle} to='/portfolio'>All Projects <svg width="52" height="52" viewBox="0 0 52 52" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M26 45.5C36.7696 45.5 45.5 36.7696 45.5 26C45.5 15.2304 36.7696 6.5 26 6.5C15.2304 6.5 6.5 15.2304 6.5 26C6.5 36.7696 15.2304 45.5 26 45.5Z" stroke="#FF65DE" strokeWidth="3.25" strokeLinecap="round" strokeLinejoin="round"/>

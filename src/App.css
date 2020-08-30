@@ -8,6 +8,37 @@
 .link:hover{
     color:#FF65DE !important;
 }
+.icon-row > a{
+    margin:0 1em;
+}
+label{
+    font-family:'Source Sans Pro', sans-serif;
+}
+input{
+    font-family:'Montserrat', sans-serif
+}
+.about-heading{
+    font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 34px;
+line-height: 1.33em;
+letter-spacing: 0.015em;
+}
+.about-heading > span{
+    color:#FF65DE;
+}
+
+.about-left > p{
+    line-height:65px;
+    letter-spacing: 0.015em;
+    font-family:'Source Sans Pro', sans-serif;
+    font-size:1.45em;
+}
+
+.about-right >img{
+    width:275px;
+}
 @keyframes bobarrow{
     0%{
         top:0;
@@ -17,6 +48,11 @@
     }
     100%{
         top:0;
+    }
+}
+@media (max-width:768px){
+    .about-container{
+        padding:0 2em !important;
     }
 }
 @media (max-width:480px){
@@ -29,12 +65,30 @@
     h3{
         font-size:18px !important;
     }
+    p{
+        font-family:'Source Sans Pro', sans-serif;
+    }
+    .form-container{
+        height:100% !important;
+        width:100% !important;
+    }
+    .about-container{
+        flex-direction:column !important;
+        padding:0 !important;
+    }
     .proj-row{
         flex-direction:column !important;
         width:auto !important;
     }
     .form-container{
         top:0 !important;
+    }
+    .about-right > img{
+        width:170px !important; 
+    }
+    .about-left p{
+        line-height:50px !important;
+        font-size:1.1em;
     }
     .proj-row > div{
         margin:1em 0 !important;
@@ -49,6 +103,9 @@
     }
     .nav-link{
         margin:0 .25em !important;
+    }
+    .about-left{
+        width:85% !important;
     }
     .nav{
         right:auto !important;
