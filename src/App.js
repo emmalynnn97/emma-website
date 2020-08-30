@@ -13,7 +13,7 @@ const contact = ()=><Contact/>
 const about = ()=><About/>
 function App() {
   return (
-    <Router>
+    <Router style={{width:'100vw'}}>
      
       <Route exact path='/' component={home}></Route>
       <Route path='/portfolio' component={portfolio}></Route>

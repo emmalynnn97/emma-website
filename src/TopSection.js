@@ -27,20 +27,20 @@ export class TopSection extends Component {
             display:'flex',
             flexDirection:'column',
             justifyContent:'center',
-            alignItems:'center'
+            alignItems:'center',
         }
         const largeHeadingStyle={
             fontWeight:'normal',
             fontFamily:'Montserrat',
             letterSpacing: '0.015em',
             lineHeight:'85px',
-            fontSize:'44px',
+            fontSize:'2.75em',
             color:'#383838',
         }
         const viewMoreStyle={
             fontWeight:'normal',
             fontFamily:'Montserrat',
-            fontSize:'28px',
+            fontSize:'1.75em',
             marginBottom:'.5em',
             position:'relative',
         }

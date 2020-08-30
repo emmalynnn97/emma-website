@@ -19,14 +19,14 @@ export class Nav extends Component {
             justifyContent: 'flex-end',
             alignItems: 'center',
             zIndex: '2',         
-            marginRight:'75px',
-            marginTop:'50px'   
+            marginRight:'4.5em',
+            marginTop:'3em'   
         }
         const navLinkStyle = {
             margin: '0 1em',
             cursor: 'pointer',
             display: 'flex',
-            fontSize: '28px',
+            fontSize: '1.75em',
             fontFamily:'Montserrat',
         }
         return (
