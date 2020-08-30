@@ -19,3 +19,31 @@
         top:0;
     }
 }
+@media (max-width:480px){
+    .link{
+        font-size:18px;
+    }
+    .nav-link{
+        margin:0 .25em !important;
+    }
+    .nav{
+        right:auto !important;
+        width:100% !important;
+        justify-content: space-evenly !important;
+    }
+    .top-section-heading{
+        font-size:34px !important;
+        padding:1em !important;
+        line-height:60px !important;
+    }
+    .view-more-box{
+        top:auto !important;
+    }
+    .icon-tabler{
+        width:40px !important;
+        height:40px !important;
+    }
+    .view-more-text{
+        font-size:24px !important;
+    }
+}

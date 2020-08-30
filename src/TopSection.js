@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-
 export class TopSection extends Component {
     constructor(props) {
         super(props)
@@ -51,10 +50,10 @@ export class TopSection extends Component {
         }
         return (
             <div style={containerStyle}>
-                <h1 style={largeHeadingStyle}>Hi, I'm <span style={specialTagStyle}>Emma Lynn</span>,<br/>a front end web <span style={specialTagStyle}>developer</span><br/>and <span style={specialTagStyle}>designer</span>.</h1>
-                <div onClick={()=>{
+                <h1 className='top-section-heading' style={largeHeadingStyle}>Hi, I'm <span style={specialTagStyle}>Emma Lynn</span>,<br/>a front end web <span style={specialTagStyle}>developer</span><br/>and <span style={specialTagStyle}>designer</span>.</h1>
+                <div className='view-more-box' onClick={()=>{
                     window.scrollTo({ top: 1000, behavior: 'smooth' });
-                }}  style={{cursor:'pointer',textAlign:'center',position:'relative',top:'5em'}}><h2 style={viewMoreStyle}>View More</h2><svg xmlns="http://www.w3.org/2000/svg" className="icon icon-tabler icon-tabler-arrow-down-circle" width="52" height="52" viewBox="0 0 24 24" strokeWidth="1.5" stroke="#FF65DE" fill="none" strokeLinecap="round" strokeLinejoin="round">
+                }}  style={{cursor:'pointer',textAlign:'center',position:'relative',top:'5em'}}><h2 className='view-more-text' style={viewMoreStyle}>View More</h2><svg xmlns="http://www.w3.org/2000/svg" className="icon icon-tabler icon-tabler-arrow-down-circle" width="52" height="52" viewBox="0 0 24 24" strokeWidth="1.5" stroke="#FF65DE" fill="none" strokeLinecap="round" strokeLinejoin="round">
   <path stroke="none" d="M0 0h24v24H0z"/>
   <circle cx="12" cy="12" r="9" />
   <line x1="8" y1="12" x2="12" y2="16" />

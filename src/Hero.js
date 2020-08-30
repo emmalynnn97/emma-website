@@ -1,21 +1,13 @@
-import React, { Component } from 'react'
+import React from 'react'
+import { useState } from 'react'
+function Hero() {
 
-export class Hero extends Component {
-    constructor(props) {
-        super(props)
-    
-        this.state = {
-             
-        }
-    }
-    
-    render() {
-        return (
-            <div>
-                Hero
-            </div>
-        )
-    }
+    return (
+        <div style={{height:'50vw',width:'100%',background:'red'}}>
+
+        </div>
+    )
 }
 
 export default Hero
+

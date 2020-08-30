@@ -10,7 +10,7 @@ import About from './About'
 const home = ()=><Home/>
 const portfolio = ()=><Portfolio/>
 const contact = ()=><Contact/>
-const blog = ()=><About/>
+const about = ()=><About/>
 function App() {
   return (
     <Router>
@@ -18,7 +18,7 @@ function App() {
       <Route exact path='/' component={home}></Route>
       <Route path='/portfolio' component={portfolio}></Route>
       <Route path='/contact' component={contact}></Route>
-      <Route path='/about' component={blog}></Route>
+      <Route path='/about' component={about}></Route>
     
     </Router>
   );
