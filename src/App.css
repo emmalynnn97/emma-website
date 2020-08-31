@@ -5,6 +5,9 @@
 .link{
     transition:.25s ease;
 }
+body{
+    background-color:rgb(255, 246, 253);
+}
 .link:hover{
     color:#FF65DE !important;
 }
@@ -74,11 +77,14 @@ letter-spacing: 0.015em;
     }
     .form-container{
         height:100% !important;
-        width:100% !important;
+    }
+    .icon-row{
+        justify-content:center;
     }
     .about-container{
         flex-direction:column !important;
         padding:0 !important;
+        margin-top:5em !important;
     }
     .proj-row{
         flex-direction:column !important;
@@ -110,9 +116,10 @@ letter-spacing: 0.015em;
         width:85% !important;
     }
     .nav{
-        margin:1em 0 !important;
-        right:auto !important;
-        width:100% !important;
+        top:0;
+        position:absolute;
+        left:0;
+        display:flex !important;
         justify-content: space-evenly !important;
     }
     .top-section-heading{

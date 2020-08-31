@@ -13,14 +13,14 @@ export class Nav extends Component {
     
     render() {
         const navStyle = {
-            position:'absolute',
+            backgroundColor:'#FFF6FD',
             right:'0',
+            top:'0',
             display: 'flex',
             justifyContent: 'flex-end',
             alignItems: 'center',
             zIndex: '2',         
-            marginRight:'4.5em',
-            marginTop:'3em'   
+            padding:'2em 1.5em'
         }
         const navLinkStyle = {
             margin: '0 1em',
