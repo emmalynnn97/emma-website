@@ -1,5 +1,8 @@
 import React, { Component } from 'react'
 import {Link} from 'react-router-dom'
+import TimingChutes from './timingchutes.png'
+import ACS from './ACS.png'
+import design from './design.jpg'
 export class FeaturedProjects extends Component {
     constructor(props) {
         super(props)
@@ -32,9 +35,7 @@ export class FeaturedProjects extends Component {
             width:'70%'
         }
         const projStyle={
-            height:'12.5em',
-            width:'12.5em',
-            border:'2px solid black'
+           
         }
         const allProjLinkStyle ={
             fontWeight:'normal',
@@ -50,13 +51,13 @@ export class FeaturedProjects extends Component {
                 <h2 style={projHeadingStyle}>Featured Projects</h2>
                 <div className='proj-row' style={projContainerStyle}>
                     <div style={projStyle}>
-                        <img src="" alt="timing chutes website"/>
+                       <a target="_blank" rel="noopener noreferrer" href="https://timingchutes.com/"><img src={TimingChutes} alt="timing chutes website"/></a>
                     </div>
                     <div style={projStyle}>
-                    <img src="" alt="???"/>
+                    <img src={design} alt="ecommerce shop design/development"/>
                     </div>
                     <div style={projStyle}>
-                    <img src="" alt="ACS Refresh"/>
+                    <a href="https://ltsarizona.org/phoenix-charter-school/" target="_blank"rel="noopener noreferrer"><img src={ACS} alt="ACS Refresh"/></a>
                     </div>
                 </div>
                 <Link style={allProjLinkStyle} to='/portfolio'>All Projects <svg width="52" height="52" viewBox="0 0 52 52" fill="none" xmlns="http://www.w3.org/2000/svg">

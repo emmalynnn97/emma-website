@@ -17,6 +17,10 @@ label{
 input{
     font-family:'Montserrat', sans-serif
 }
+.proj-row > div > img{
+   
+   height:200px;
+}
 .about-heading{
     font-family: Montserrat;
 font-style: normal;
@@ -91,12 +95,10 @@ letter-spacing: 0.015em;
         font-size:1.1em;
     }
     .proj-row > div{
-        margin:1em 0 !important;
-        height:9em !important;
-        width:9em !important;
+        margin:1em 0 !important;  
     }
     .proj-container{
-        height:100vh !important;
+        height:125vh !important;
     }
     .link{
         font-size:18px;
@@ -108,6 +110,7 @@ letter-spacing: 0.015em;
         width:85% !important;
     }
     .nav{
+        margin:1em 0 !important;
         right:auto !important;
         width:100% !important;
         justify-content: space-evenly !important;

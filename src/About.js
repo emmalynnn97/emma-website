@@ -4,6 +4,7 @@ import {Link} from 'react-router-dom'
 import me from './me.png'
 import linkedin from './linkedin.png'
 import github from './github.png'
+
 export class About extends Component {
     constructor(props) {
         super(props)
@@ -49,7 +50,7 @@ export class About extends Component {
                     
                     <div  className='about-left' style={leftStyle}>
                         <h1 className='about-heading' style={headingStyle}><span>Development</span> Meets <span>Design</span></h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex.</p>
+                        <p>I am a front end developer with 1.5 years of experience producing visually appealing websites in HTML5, CSS3, ES5/ES6 JavaScript, and PHP7. Some of my recent projects include WooCommerce and Shopify powered Ecommerce Stores.</p>
                         <div className='icon-row' style={iconRowStyle}>
                             <a target='_blank' rel="noopener noreferrer" href="https://www.linkedin.com/in/emma-guy-639014189/"><img src={linkedin} alt="linkedin link"></img></a>
                             <a target='_blank' rel="noopener noreferrer" href="https://github.com/emmalynnn97"><img src={github} alt="linkedin link"></img></a>
