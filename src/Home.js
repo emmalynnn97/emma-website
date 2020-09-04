@@ -16,7 +16,7 @@ export class Home extends Component {
     render() {
         return (
             <div style={{height:'200vh'}}>
-               <Nav height='115px' finalHeight='60px' bgColor='url("https://www.transparenttextures.com/patterns/paper-fibers.png")' links={[<Link className='link home-link' style={{color:'#FF65DE',textDecoration:'none', fontWeight:'600'}} to='/'>Home</Link>,<Link className='link about-link' style={{color:'#383838',textDecoration:'none'}} to='/about'>About</Link>,<Link className='link portfolio-link' style={{color:'#383838',textDecoration:'none'}} to='/portfolio'>Portfolio</Link>]}/>
+               <Nav offset={2} links={[<Link className='link home-link' style={{color:'#FF65DE',textDecoration:'none', fontWeight:'600'}} to='/'>Home</Link>,<Link className='link about-link' style={{color:'#383838',textDecoration:'none'}} to='/about'>About</Link>,<Link className='link portfolio-link' style={{color:'#383838',textDecoration:'none'}} to='/portfolio'>Portfolio</Link>]}/>
                <TopSection/>
                <FeaturedProjects/>
                <HomeContactSection/>

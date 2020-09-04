@@ -14,6 +14,7 @@ body{
 .icon-row > a{
     margin:0 1em;
 }
+
 label{
     font-family:'Source Sans Pro', sans-serif;
 }
@@ -121,6 +122,7 @@ letter-spacing: 0.015em;
         left:0;
         display:flex !important;
         justify-content: space-evenly !important;
+        width:auto !important;
     }
     .top-section-heading{
         padding:1em !important;
