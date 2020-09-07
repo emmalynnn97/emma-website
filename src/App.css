@@ -1,3 +1,40 @@
+.project-1{
+    grid-row-start:1;
+    grid-row-end:2;
+    grid-column-start:1;
+    grid-column-end:4;
+    background-image:url("./timingchutes2.png");
+    background-size:cover;
+    background-position:top;
+}
+.project-2{
+    background-image:url("./ACS2.png");
+    background-size:cover;
+    background-position:top;
+    grid-column-start:4;
+    grid-column-end:5;
+}
+.project-3{
+    background-image:url("./sh.png");
+    background-size:cover;
+    background-position:center;
+    grid-column-start:1;
+    grid-column-end:3;
+}
+.project-4{
+    background-image:url("./mg.png");
+    background-size:cover;
+    background-position:center;
+    grid-column-start:3;
+    grid-column-end:5;
+}
+.project-overlay{
+    transition:.25s ease;
+    cursor:pointer;
+}
+.project-overlay:hover{
+    background-color:rgba(255, 246, 253,.8) !important;
+}
 .icon-tabler-arrow-down-circle{
     animation:bobarrow .65s infinite;
     position:relative;
@@ -137,5 +174,12 @@ letter-spacing: 0.015em;
     }
     .view-more-text{
         font-size:20px !important;
+    }
+    .project{
+        grid-column-start:1 !important;
+        grid-column-end:5 !important;
+    }
+    .project-container{
+        grid-gap:25px !important;
     }
 }
