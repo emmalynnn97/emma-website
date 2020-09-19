@@ -31,10 +31,18 @@ export class Portfolio extends Component {
             <div>
                 <Nav offset={2} links={[<Link className='link home-link' style={{color:'#383838',textDecoration:'none'}} to='/'>Home</Link>,<Link className='link about-link' style={{color:'#383838',textDecoration:'none'}} to='/about'>About</Link>,<Link className='link portfolio-link' style={{color:'#FF65DE',textDecoration:'none',fontWeight:'600'}} to='/portfolio'>Portfolio</Link>]}/>
                 <div style={containerStyle} className='project-container'>
-                    <div style={projectStyle} className='project project-1'><div style={projectOverlayStyle} className='project-overlay'></div></div>
-                    <div style={projectStyle} className='project project-2'><div style={projectOverlayStyle} className='project-overlay'></div></div>
-                    <div style={projectStyle} className='project project-3'><div style={projectOverlayStyle} className='project-overlay'></div></div>
-                    <div style={projectStyle} className='project project-4'><div style={projectOverlayStyle} className='project-overlay'></div></div>
+                    <div onClick={()=>{
+                        window.location.href='https://timingchutes.com/'
+                    }} style={projectStyle} className='project project-1'><div style={projectOverlayStyle} className='project-overlay'></div></div>
+                    <div onClick={()=>{
+                        window.location.href='https://ltsarizona.org/phoenix-charter-school/'
+                    }} style={projectStyle} className='project project-2'><div style={projectOverlayStyle} className='project-overlay'></div></div>
+                    <div onClick={()=>{
+                        window.location.href='https://blog.summithut.com/'
+                    }} style={projectStyle} className='project project-3'><div style={projectOverlayStyle} className='project-overlay'></div></div>
+                    <div onClick={()=>{
+                        window.location.href='https://mcfaddengavender.com/'
+                    }} style={projectStyle} className='project project-4'><div style={projectOverlayStyle} className='project-overlay'></div></div>
                 </div>
             </div>
         )
