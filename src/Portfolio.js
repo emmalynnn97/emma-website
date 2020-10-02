@@ -20,7 +20,7 @@ export class Portfolio extends Component {
             padding:'5em',
         }
         const projectStyle={
-
+            
         }
         const projectOverlayStyle={
             width:'100%',

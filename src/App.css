@@ -82,7 +82,7 @@ letter-spacing: 0.015em;
 }
 
 .about-right >img{
-    width:275px;
+    height:300px;
 }
 @keyframes bobarrow{
     0%{
@@ -131,9 +131,7 @@ letter-spacing: 0.015em;
     .form-container{
         top:0 !important;
     }
-    .about-right > img{
-        width:170px !important; 
-    }
+    
     .about-left p{
         line-height:50px !important;
         font-size:1.1em;

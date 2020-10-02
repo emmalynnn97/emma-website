@@ -31,8 +31,10 @@ export class FeaturedProjects extends Component {
         }
         const projContainerStyle={
             display:'flex',
-            justifyContent:'space-between',
-            width:'70%'
+            justifyContent:'space-evenly',
+            width:'100%',
+            maxWidth:'1400px',
+            flexWrap:'wrap'
         }
         const projStyle={
            
